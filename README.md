@@ -2,7 +2,7 @@
 
 ## Description
 
-This is my personal photography website where I will showcase my work and share my passion for portrait fotography and fine-art photography. This is aimd for people who would like to see my work and maybe get in touch with me for a photoshoot.
+This is my personal photography website where I will showcase my work and share my passion for portrait photography and fine-art photography. This is aimd for people who would like to see my work and maybe get in touch with me for a photoshoot.
 
 ## Features
 
@@ -28,21 +28,18 @@ This is my personal photography website where I will showcase my work and share 
 
 ## credits
 
-- for the carousel design i used this tutorial: https://www.youtube.com/watch?v=s1hXF_UFCrU
-[Arashtad github](https://github.com/arashtad)
+- for the carousel design i used this tutorial: [Video Link](https://www.youtube.com/watch?v=s1hXF_UFCrU) from [Arashtad github](https://github.com/arashtad)
 ![Carousel image](assets/images/carousel.jpg)
-
 
 ### Ideas for development
 
 project | Details of design | Development | Deployed
 --- | --- | --- | ---
-carousel | 3 pictures with links | 
-index | main page with navigation 
-Portrait Gallery | gallery with at least 6 pictures |
-Fine-Art Gallery | gallery with at least 6 pictures |
-about me section | section with a picture and a short description about me |
-Contact form (maybe together with about me section) | form with name, email and message fields |
+carousel | 3 pictures with links | . | .
+index | main page with navigation | . | .
+Portrait Gallery | gallery with at least 6 pictures | . | .
+Fine-Art Gallery | gallery with at least 6 pictures | . | .
+about me section | section with a picture and a short description about me | . | .
+Contact form (maybe together with about me section) | form with name, email and message fields | . | .
 
-
-### future development ideas:
+### future development ideas
