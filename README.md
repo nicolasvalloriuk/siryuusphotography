@@ -2,7 +2,7 @@
 
 ## Description
 
-This is my personal photography website where I will showcase my work and share my passion for portrait photography and fine-art photography. This is aimd for people who would like to see my work and maybe get in touch with me for a photoshoot.
+This is my personal photography website where I will showcase my work and share my passion for portrait photography and fine-art photography. This is aimed for people who would like to see my work and maybe get in touch with me for a photoshoot.
 
 ## Features
 
@@ -43,3 +43,17 @@ about me section | section with a picture and a short description about me | . |
 Contact form (maybe together with about me section) | form with name, email and message fields | . | .
 
 ### future development ideas
+
+- add javascript to make the website more interactive and dynamic
+
+### checklist of commits
+
+This is a guide to know where i am at, and to track the commitments so i can have a clear vision of the project and its progress.
+
+1. first commit
+2. fix typos and improve formatting in README.md
+3. Entering basic structure with folders and files for the project
+4. update the readme
+5. readme updated
+6. merge branch (I had bug with vscode)
+7. Add a checklist to the README.md with the current commits and status of the project.
