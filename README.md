@@ -57,3 +57,9 @@ This is a guide to know where i am at, and to track the commitments so i can hav
 5. readme updated
 6. merge branch (I had bug with vscode)
 7. Add a checklist to the README.md with the current commits and status of the project.
+
+### Bugs list and fixes with screenshots
+
+- **bug in README.md file** the file had some corrupted text, this was deleted and added the correct text.
+![corrupted text](assets/images/bug-markdown.jpg)
+This was added when connecting VScode to Github, My professor saw a different line of code between line 36 and 38, this was fixed by deleting the corrupted text and adding the correct text.
