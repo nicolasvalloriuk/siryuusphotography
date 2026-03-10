@@ -22,7 +22,7 @@ This is my personal photography website where I will showcase my work and share 
 - Git
 - GitHub
   
-## how to view the project
+## How to view the project
 
 - [website](https://nicolasvalloriuk.github.io/Siryuus-Photography/)
 
@@ -35,12 +35,15 @@ This is my personal photography website where I will showcase my work and share 
   - images
     - bugs
     - credits
+    - gallery
+      - portrait
+      - night
   - css
     - style.css
 
 ----
 
-## credits
+## Credits
 
 - for the carousel design i used this tutorial: [Video Link](https://www.youtube.com/watch?v=s1hXF_UFCrU) from [Arashtad github](https://github.com/arashtad)
 ![Carousel image](assets/images/credits/carousel.jpg)
@@ -56,11 +59,10 @@ Fine-Art Gallery | gallery with at least 6 pictures | . | .
 about me section | section with a picture and a short description about me | . | .
 Contact form (maybe together with about me section) | form with name, email and message fields | . | .
 
-### future development ideas
 
-- add javascript to make the website more interactive and dynamic
+----
 
-### checklist of commits
+### Checklist of commits
 
 This is a guide to know where i am at, and to track the commitments so i can have a clear vision of the project and its progress.
 
@@ -74,9 +76,14 @@ This is a guide to know where i am at, and to track the commitments so i can hav
 8. Add the bug list and fixes with screenshots to the README.md file.
 9. Add the pictures in respective folders (bugs, credits) and update the README.md also update the README.md file with the new images locations.
 10. Add project structure to the README.md file.
+11. Add gallery folders inside the assets folder and 2 sub-folders one for portraits and one for studio photography and update the README.md file with the new structure.
 
 ### Bugs list and fixes with screenshots
 
 - **bug in README.md file** the file had some corrupted text, this was deleted and added the correct text.
 ![corrupted text](assets/images/bugs/bug-markdown.jpg)
 This was added when connecting VScode to Github, My professor Len saw a different line of code between line 36 and 38, this was fixed by deleting the corrupted text and adding the correct text.
+
+### Future development ideas
+
+- add javascript to make the website more interactive and dynamic.
