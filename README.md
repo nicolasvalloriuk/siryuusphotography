@@ -79,6 +79,7 @@ This is a guide to know where i am at, and to track the commitments so i can hav
 11. Add gallery folders inside the assets folder and 2 sub-folders one for portraits and one for studio photography and update the README.md file with the new structure.
 12. Add some comments to styles.css file to make it more clear and organized, and update the README.md
 13. Add the import style to the index.html file and update the README.md
+14. Add colors comment to style.css file and update the README.md
 
 ### Bugs list and fixes with screenshots
 
