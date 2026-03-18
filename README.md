@@ -110,7 +110,7 @@ This is a guide to know where i am at, and to track the commitments so i can hav
 13. Add the import style to the index.html file and update the README.md
 14. Add colors comment to style.css file and update the README.md
 15. Add description to the index.html file and update the README.md file.
-16. Add the user experience design section to the README.md file. 
+16. Add the user experience design section to the README.md file.
 17. Add more detail to the UXD in the README.md file.
 
 ### Bugs list and fixes with screenshots
