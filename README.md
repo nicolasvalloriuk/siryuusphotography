@@ -2,7 +2,7 @@
 
 ## Description
 
-This is my personal photography website where I will showcase my work and share my passion for portrait photography and fine-art photography. This is aimed for people who would like to see my work and maybe get in touch with me for a photoshoot.
+This is my personal photography website where I will showcase my work and share my passion for portrait photography and fine-art photography. This is aimed for people who would like to see my work and get in touch with me for a photoshoot.
 
 ## Features
 
@@ -34,11 +34,11 @@ The website is a Photography portfolio website, intender to attract new customer
 
 ### Scope plane
 
-s
+Functions specifications and content requirements:
 
 ### Structure plane
 
-s
+Structure of the website (sketch and information):
 
 ### Skeleton plane
 
@@ -46,7 +46,15 @@ s
 
 ### Surface plane
 
-s
+What will the website look like? (colors, typography, images, etc.):
+
+- Colors:
+  - Background: a
+  - Text: a
+  - Links: a
+  - Carousel background: a
+  - Carousel text: a
+  - Typography: a
 
 ## Project structure
 
@@ -103,6 +111,7 @@ This is a guide to know where i am at, and to track the commitments so i can hav
 14. Add colors comment to style.css file and update the README.md
 15. Add description to the index.html file and update the README.md file.
 16. Add the user experience design section to the README.md file. 
+17. Add more detail to the UXD in the README.md file.
 
 ### Bugs list and fixes with screenshots
 
