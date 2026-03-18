@@ -26,6 +26,28 @@ This is my personal photography website where I will showcase my work and share 
 
 - [website](https://nicolasvalloriuk.github.io/Siryuus-Photography/)
 
+## User experience Design
+
+### Strategy plane
+
+The website is a Photography portfolio website, intender to attract new customers and share the work of the photographer. The website will have a simple and clear design to make it easy to navigate and find the information. The main page will have a carousel with 3 images each one with a different category of portrait photography and a link to the corresponding gallery, this will make it easy for the user to find the type of photography they are interested in. The about me section will have a short description about the photographer and a contact form to get in touch with him. The galleries will have at least 6 pictures each one, this will give the user a good idea of the photographer's work and style.
+
+### Scope plane
+
+s
+
+### Structure plane
+
+s
+
+### Skeleton plane
+
+s
+
+### Surface plane
+
+s
+
 ## Project structure
 
 ----
@@ -80,6 +102,7 @@ This is a guide to know where i am at, and to track the commitments so i can hav
 13. Add the import style to the index.html file and update the README.md
 14. Add colors comment to style.css file and update the README.md
 15. Add description to the index.html file and update the README.md file.
+16. Add the user experience design section to the README.md file. 
 
 ### Bugs list and fixes with screenshots
 
