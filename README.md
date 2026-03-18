@@ -59,7 +59,6 @@ Fine-Art Gallery | gallery with at least 6 pictures | . | .
 about me section | section with a picture and a short description about me | . | .
 Contact form (maybe together with about me section) | form with name, email and message fields | . | .
 
-
 ----
 
 ### Checklist of commits
@@ -80,6 +79,7 @@ This is a guide to know where i am at, and to track the commitments so i can hav
 12. Add some comments to styles.css file to make it more clear and organized, and update the README.md
 13. Add the import style to the index.html file and update the README.md
 14. Add colors comment to style.css file and update the README.md
+15. Add description to the index.html file and update the README.md file.
 
 ### Bugs list and fixes with screenshots
 
