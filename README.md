@@ -201,6 +201,7 @@ This is a guide to know where i am at, and to track the commitments so i can hav
 17. Add more detail to the UXD in the README.md file.
 18. Add the details of UXD to the README.md file.
 19. Add a wireframe image to the README.md file.
+20. Workspace updated
 
 ### Bugs list and fixes with screenshots
 
