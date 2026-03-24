@@ -21,7 +21,7 @@ This is my personal photography website where I will showcase my work and share 
 
 The website is a Photography portfolio website, Which purpose is to attract new customers and share the work of the photographer.
 
-### Strategy plane
+### 1. Strategy plane
 
 **Target user:**
 
@@ -51,7 +51,7 @@ Create a website that is easy to navigate, visually appealing and that showcases
 **Value proposition:**
 A simple and clear website that showcases the work of the photographer in a visually appealing way, making it easy for potential customers to find the information they need and get in touch with the photographer.
 
-### Scope plane
+### 2. Scope plane
 
 **MVP (Minimum Viable Product) features:**
 
@@ -73,7 +73,7 @@ A simple and clear website that showcases the work of the photographer in a visu
 - A gallery with at least 6 pictures for the portrait photography
 - Contact form with name, email and message fields
 
-### Structure plane
+### 3. Structure plane
 
 **The website is structure in the following pages:**
 
@@ -93,7 +93,7 @@ A simple and clear website that showcases the work of the photographer in a visu
 - The about me page will have a picture of the photographer and a short description about him, and a contact form with name, email and message fields.
 - The gallery page will have a gallery with at least 6 pictures for the portrait photography, and in the future it will have a gallery for studio photography and fine-art photography.
 
-### Skeleton plane
+### 4. Skeleton plane
 
 **Layout:**
 
@@ -118,7 +118,9 @@ Gallery page:
 - Visually appealing design that showcases the work of the photographer
 - Clear and concise information about the photographer and how to get in touch with him
 
-### Surface plane
+![Visual wireframe of the website](assets/images/uxd/visual-wireframe.jpg)
+
+### 5. Surface plane
 
 **Design choices:**
 
@@ -198,6 +200,7 @@ This is a guide to know where i am at, and to track the commitments so i can hav
 16. Add the user experience design section to the README.md file.
 17. Add more detail to the UXD in the README.md file.
 18. Add the details of UXD to the README.md file.
+19. Add a wireframe image to the README.md file.
 
 ### Bugs list and fixes with screenshots
 
