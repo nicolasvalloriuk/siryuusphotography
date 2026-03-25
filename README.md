@@ -124,11 +124,63 @@ Gallery page:
 
 **Design choices:**
 
-- Color palette:
+Color palette:
 
-- Typography:
+- Background:
+  - background color: #0d0d0d (black)
+  - navigation bar background color: #1a1a1a (dark gray)
+  - footer background color: #2b2b2b (dark gray)
 
-- Layout:
+- Text colors:
+  - Primary text color: #f5f5f5 (white)
+  - secondary text color: #a5a5a5a5 (gray)
+  - Logo original color: Silver (image with transparent background)
+
+- Button colors:
+  - Primary button color: #f5f5f5 (white)
+  - Secondary button color: #a5a5a5a5 (gray)
+
+- Radio button colors:
+  - primary radio button color: #a5a5a5 (gray)
+  - selected radio button color: #bbbbbb (light gray)
+
+- Icon colors:
+  - primary icon color: #f5f5f5 (white)
+  - secondary icon color: #a5a5a5 (gray)
+
+Typography:
+
+- Heading font:
+  - font-family: "Playfair Display", "Times New Roman", Times, serif
+
+- Body font:
+  - font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif
+
+- Navigation bar font:
+  - font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif
+
+Layout:
+
+- Header:
+  - Logo on the **left** (image of the logo)
+  - Navigation on the **right** (Home, About with Contact, Portrait Gallery)
+
+- Body :
+  - centered content with simple and clean design, with a lot of white space to make the content stand out.
+
+- Footer:
+  - Copyright information on the left
+  - Links to social media on the right (Instagram, Facebook, Twitter)
+
+- Body Home page:
+  - Carousel with section name on top and a short description of the work of the photographer, and a button to see the gallery
+
+- Portrait Gallery page:
+  - A grid layout with at least 6 pictures for the portrait photography, small description below each image.
+
+- About me :
+  - Contact form:
+    - A form with name, email, project idea and message fields, and a submit button.
 
 **UX considerations:**
 
@@ -167,6 +219,14 @@ Gallery page:
 - for the carousel design i used this tutorial: [Video Link](https://www.youtube.com/watch?v=s1hXF_UFCrU) from [Arashtad github](https://github.com/arashtad)
 ![Carousel image](assets/images/credits/carousel.jpg)
 
+- Fonts from Google Fonts:
+  - [Playfair Display](https://fonts.google.com/specimen/Playfair+Display)
+  - [Inter](https://fonts.google.com/specimen/Inter)
+  - [Helvetica Neue](https://fonts.google.com/specimen/Helvetica+Neue)
+  - [Times New Roman](https://fonts.google.com/specimen/Times+New+Roman)
+
+[import url](https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:wght@400;500&display=swap)
+
 ### Ideas for development
 
 project | Details of design | Development | Deployed
@@ -202,6 +262,7 @@ This is a guide to know where i am at, and to track the commitments so i can hav
 18. Add the details of UXD to the README.md file.
 19. Add a wireframe image to the README.md file.
 20. Workspace updated
+21. Add the surface plane with detail of design choices and UX considerations to the README.md file.
 
 ### Bugs list and fixes with screenshots
 
