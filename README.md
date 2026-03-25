@@ -225,18 +225,7 @@ Layout:
   - [Helvetica Neue](https://fonts.google.com/specimen/Helvetica+Neue)
   - [Times New Roman](https://fonts.google.com/specimen/Times+New+Roman)
 
-[import url](https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:wght@400;500&display=swap)
-
-### Ideas for development
-
-project | Details of design | Development | Deployed
---- | --- | --- | ---
-carousel | 3 pictures with links | . | .
-index | main page with navigation | . | .
-Portrait Gallery | gallery with at least 6 pictures | . | .
-Fine-Art Gallery | gallery with at least 6 pictures | . | .
-about me section | section with a picture and a short description about me | . | .
-Contact form (maybe together with about me section) | form with name, email and message fields | . | .
+[Import url for css file](https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:wght@400;500&display=swap)
 
 ### Checklist of commits
 
@@ -263,6 +252,7 @@ This is a guide to know where i am at, and to track the commitments so i can hav
 19. Add a wireframe image to the README.md file.
 20. Workspace updated
 21. Add the surface plane with detail of design choices and UX considerations to the README.md file.
+22. Removed list of ideas for deployment as this are now in the UXD section, and update the README.md file.
 
 ### Bugs list and fixes with screenshots
 
