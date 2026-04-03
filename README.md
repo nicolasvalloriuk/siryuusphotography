@@ -263,6 +263,7 @@ This is a guide to know where i am at, and to track the commitments so i can hav
 30. Create navigation section in the header, and update the README.md file.
 31. Add Logo to header and justify content in the navigation to space around, and update the README.md file.
 32. Changed language to UK English and update the README.md file.
+33. Changed the Logo imaged to a new one, and update the README.md file.
 
 ## Bugs list and fixes with screenshots
 
