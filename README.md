@@ -255,6 +255,7 @@ This is a guide to know where i am at, and to track the commitments so i can hav
 22. Removed list of ideas for deployment as this are now in the UXD section, and update the README.md file.
 23. Create meta tags for search engines
 24. Add favicon to the index.html file and update the README.md file.
+25. Added basic structure to the index file and update the README.md file.
 
 ### Bugs list and fixes with screenshots
 
