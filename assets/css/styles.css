@@ -25,6 +25,14 @@ h1 {
     font-family: "Playfair Display", "Times New Roman", Times, serif;
 }
 
+.navigation {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
 /* main */
 main {
     background-color: #0d0d0d;
