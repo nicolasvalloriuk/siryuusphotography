@@ -260,6 +260,7 @@ This is a guide to know where i am at, and to track the commitments so i can hav
 27. Fix bug (forgot to add favicon.ico to files)
 28. Add color to header, body and footer and push the footer to the bottom of the page with flexbox, and update the README.md file.
 29. Add  'Inter' to body styles
+30. Create navigation section in the header, and update the README.md file.
 
 ## Bugs list and fixes with screenshots
 

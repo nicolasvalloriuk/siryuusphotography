@@ -21,7 +21,9 @@ header {
     background-color: #1a1a1a;
 }
 
-
+h1 {
+    font-family: "Playfair Display", "Times New Roman", Times, serif;
+}
 
 /* main */
 main {
