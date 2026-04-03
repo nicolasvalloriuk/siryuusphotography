@@ -257,6 +257,7 @@ This is a guide to know where i am at, and to track the commitments so i can hav
 24. Add favicon to the index.html file and update the README.md file.
 25. Added basic structure to the index file and update the README.md file.
 26. Update source of favicon
+27. Fix bug (forgot to add favicon.ico to files)
 
 ### Bugs list and fixes with screenshots
 
