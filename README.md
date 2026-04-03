@@ -127,8 +127,8 @@ Gallery page:
 Color palette:
 
 - Background:
+  - header / navigation bar background color: #1a1a1a (dark gray)
   - background color: #0d0d0d (black)
-  - navigation bar background color: #1a1a1a (dark gray)
   - footer background color: #2b2b2b (dark gray)
 
 - Text colors:
@@ -227,7 +227,7 @@ Layout:
 
 [Import url for css file](https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:wght@400;500&display=swap)
 
-### Checklist of commits
+## Checklist of commits
 
 This is a guide to know where i am at, and to track the commitments so i can have a clear vision of the project and its progress.
 
@@ -258,14 +258,17 @@ This is a guide to know where i am at, and to track the commitments so i can hav
 25. Added basic structure to the index file and update the README.md file.
 26. Update source of favicon
 27. Fix bug (forgot to add favicon.ico to files)
+28. Add color to header, body and footer and push the footer to the bottom of the page with flexbox, and update the README.md file.
 
-### Bugs list and fixes with screenshots
+## Bugs list and fixes with screenshots
 
 1- **bug in README.md file** the file had some corrupted text, this was deleted and added the correct text.
 ![bug 1 (the vscode put the username of github in the markdown, what caused an error.)](assets/images/bugs/bug-markdown.jpg)
 This was added when connecting VScode to Github, My professor Len saw a different line of code between line 36 and 38, this was fixed by deleting the corrupted text and adding the correct text.
+2- **Bug in index.html file** the link to the favicon was incorrect, this caused the favicon to not appear in the browser, this was fixed by adding the correct path to the favicon in the index.html file.
+3- 
 
-### Structure of the development of the website
+## Structure of the development of the website
 
 ----
 
