@@ -226,6 +226,7 @@ Layout:
   - [Inter](https://fonts.google.com/specimen/Inter)
   - [Helvetica Neue](https://fonts.google.com/specimen/Helvetica+Neue)
   - [Times New Roman](https://fonts.google.com/specimen/Times+New+Roman)
+  - [Icons from Font Awesome](https://fontawesome.com/)
 
 [Import url for css file](https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:wght@400;500&display=swap)
 
@@ -271,6 +272,7 @@ This is a guide to know where i am at, and to track the commitments so i can hav
 36. Fixed the bug in navigation for the media query for tablet and up, and update the README.md file.
 37. Add a media query for desktop and up (992px and up) and add hover effects to navigation links, and update the README.md file.
 38. changed the background color of the header, navigation and footer to a darker gray, and update the README.md file.
+39. Change the navigation logo for mobiles to a standard burger menu from Fontawsome, and update the README.md file.
 
 ## Bugs list and fixes with screenshots
 
