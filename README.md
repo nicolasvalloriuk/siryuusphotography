@@ -264,6 +264,7 @@ This is a guide to know where i am at, and to track the commitments so i can hav
 31. Add Logo to header and justify content in the navigation to space around, and update the README.md file.
 32. Changed language to UK English and update the README.md file.
 33. Changed the Logo imaged to a new one, and update the README.md file.
+34. Add the navigation as a toggle for mobile devices,change the logo picture (size) and update the README.md file. (this web design is mobile first).
 
 ## Bugs list and fixes with screenshots
 

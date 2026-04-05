@@ -19,18 +19,80 @@ body {
 /* Header */
 header {
     background-color: #1a1a1a;
+    padding: 0 1px;
+    position: fixed;
+    z-index: 99;
+    width:100%;
+    box-shadow: 0 2px 2px #f5f5f5;
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline; 
+}
+
+header a {
+    padding : 5px ;
+    left: 0;
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
 }
 
 h1 {
     font-family: "Playfair Display", "Times New Roman", Times, serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #f5f5f5;
 }
 
-.navigation {
+#menu {
+    text-size-adjust: 110%;
+    letter-spacing: 4px;
     list-style-type: none;
-    padding: 0;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
+}
+
+#menu > a {
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    
+}
+
+li {
+    margin: 10px 0;
+}
+.active {
+    border-bottom: 1px solid #f5f5f5
+}
+
+
+/* Navbar style with dropdown */
+nav {
+    position:absolute;
+    background-color: #1a1a1a;
+    width: 100%;
+    left:0;
+    padding: 0 1 rem;
+    box-shadow: 0 2px 2px #2b2b2b;
+    display: none;
+    top:100%;
+
+}
+
+/* Navbar toggle */
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+    
 }
 
 /* main */
@@ -38,6 +100,7 @@ main {
     background-color: #0d0d0d;
     /* make the main content area take up the remaining space */
     flex: 1 0 auto;
+    margin-top: 80px;
 }
 
 
