@@ -275,6 +275,7 @@ This is a guide to know where i am at, and to track the commitments so i can hav
 39. Change the navigation logo for mobiles to a standard burger menu from Fontawsome, and update the README.md file.
 40. Add a footer with links to social media and copyright information with Fontawsome icons, and update the README.md file.
 41. Add some styling to the social media icons in the footer, removed the copyright text, and update the README.md file.
+42. Add portrait.html and about.html pages with the same structure as index.html, add the link and the active class to the navigation items, and update the README.md file.
 
 ## Bugs list and fixes with screenshots
 
