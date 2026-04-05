@@ -129,11 +129,13 @@ Color palette:
 - Background:
   - header / navigation bar background color: #1a1a1a (dark gray)
   - background color: #0d0d0d (black)
-  - footer background color: #2b2b2b (dark gray)
+  - footer background color: #1a1a1a (dark gray)
+  - box shadow color: #3c3c3c (medium gray)
+  - border box color #f5f5f5f (white)
 
 - Text colors:
   - Primary text color: #f5f5f5 (white)
-  - secondary text color: #a5a5a5a5 (gray)
+  - secondary text color: #a5a5a5 (gray)
   - Logo original color: Silver (image with transparent background)
 
 - Button colors:
@@ -268,6 +270,7 @@ This is a guide to know where i am at, and to track the commitments so i can hav
 35. Add a media query for table and up (768px and up) to change the navigation to a horizontal one, and update the README.md file.
 36. Fixed the bug in navigation for the media query for tablet and up, and update the README.md file.
 37. Add a media query for desktop and up (992px and up) and add hover effects to navigation links, and update the README.md file.
+38. changed the background color of the header, navigation and footer to a darker gray, and update the README.md file.
 
 ## Bugs list and fixes with screenshots
 
