@@ -273,6 +273,7 @@ This is a guide to know where i am at, and to track the commitments so i can hav
 37. Add a media query for desktop and up (992px and up) and add hover effects to navigation links, and update the README.md file.
 38. changed the background color of the header, navigation and footer to a darker gray, and update the README.md file.
 39. Change the navigation logo for mobiles to a standard burger menu from Fontawsome, and update the README.md file.
+40. Add a footer with links to social media and copyright information with Fontawsome icons, and update the README.md file.
 
 ## Bugs list and fixes with screenshots
 
