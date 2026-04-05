@@ -265,6 +265,7 @@ This is a guide to know where i am at, and to track the commitments so i can hav
 32. Changed language to UK English and update the README.md file.
 33. Changed the Logo imaged to a new one, and update the README.md file.
 34. Add the navigation as a toggle for mobile devices,change the logo picture (size) and update the README.md file. (this web design is mobile first).
+35. Add a media query for table and up (768px and up) to change the navigation to a horizontal one, and update the README.md file. 
 
 ## Bugs list and fixes with screenshots
 
