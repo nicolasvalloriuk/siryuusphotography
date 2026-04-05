@@ -265,7 +265,8 @@ This is a guide to know where i am at, and to track the commitments so i can hav
 32. Changed language to UK English and update the README.md file.
 33. Changed the Logo imaged to a new one, and update the README.md file.
 34. Add the navigation as a toggle for mobile devices,change the logo picture (size) and update the README.md file. (this web design is mobile first).
-35. Add a media query for table and up (768px and up) to change the navigation to a horizontal one, and update the README.md file. 
+35. Add a media query for table and up (768px and up) to change the navigation to a horizontal one, and update the README.md file.
+36. Fixed the bug in navigation for the media query for tablet and up, and update the README.md file.
 
 ## Bugs list and fixes with screenshots
 
@@ -273,7 +274,7 @@ This is a guide to know where i am at, and to track the commitments so i can hav
 ![bug 1 (the vscode put the username of github in the markdown, what caused an error.)](assets/images/bugs/bug-markdown.jpg)
 This was added when connecting VScode to Github, My professor Len saw a different line of code between line 36 and 38, this was fixed by deleting the corrupted text and adding the correct text.
 2- **Bug in index.html file** the link to the favicon was incorrect, this caused the favicon to not appear in the browser, this was fixed by adding the correct path to the favicon in the index.html file.
-3-
+3-**Bug in navigation on media query for tablet** I forgot to hid the navigation button on the media query for tablet and up, this was fixed by adding a display: none; to the navigation button in the media query for tablet and up.
 
 ## Structure of the development of the website
 
