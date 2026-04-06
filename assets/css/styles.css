@@ -15,7 +15,10 @@ body {
     font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-
+/* h1 hidden rule*/
+.hidden {
+    display: none;
+}
 /* Header */
 header {
     background-color: #1a1a1a;
