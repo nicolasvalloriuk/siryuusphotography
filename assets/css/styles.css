@@ -140,7 +140,7 @@ body {
 }  
 .component{
     position: absolute;
-    top: 150px;
+    top: 275px;
     left:50%;
     transform: translateX(-50%) translateY(-50%);
     width:100%;
@@ -156,8 +156,8 @@ input.input {
     justify-content: center;
     align-items: center;
     width:33vh;
-    height: 200px;
-    aspect-ratio: 16/9 ;
+    height: 450px;
+    aspect-ratio: 3/4 ;
     margin: 0 auto;
     perspective: 1000px;
 }
@@ -165,7 +165,7 @@ input.input {
     position:absolute;
     top:0;
     width:300px;
-    aspect-ratio: 16/9;
+    aspect-ratio: 3/4;
     border: 1px solid #555;
     border-radius: 10px;
     box-sizing: border-box;
