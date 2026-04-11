@@ -155,12 +155,13 @@ input.input {
     display: flex;
     justify-content: center;
     align-items: center;
-    width:33vh;
+    width:40vh;
     height: 450px;
     aspect-ratio: 3/4 ;
     margin: 0 auto;
     perspective: 1000px;
 }
+
 .item {
     position:absolute;
     top:0;
