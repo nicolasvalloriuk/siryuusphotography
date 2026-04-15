@@ -122,7 +122,7 @@ body {
     margin: 0;
 }
 
-/* Carousel */
+/* Carousel (Arashad) */
 .section-title {
     position: relative;
     margin-top: 120px;
@@ -416,7 +416,7 @@ input.input {
     transform: translate3d(-250px, 0, -100px) rotateY(20deg);
     z-index: 2;
 }
-
+/* End of Carousel (Arashad) */
 
 
 

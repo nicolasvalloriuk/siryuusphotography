@@ -196,23 +196,12 @@ Layout:
 
 **What worked well:**
 
-- a
-- b
-- c
-
 **What could be improved:**
-
-- a
-- b
-- c
 
 **Future improvements:**
 
-- Carrousel with javascript to make it more interactive and dynamic
-- Add a gallery for studio photography
-- Add a carousel for studio photography in home page
-- Add a gallery for fine-art photography
-- Add a carousel for fine-art photography in home page
+- Add a galleries page dedicated to artistic studio photography/events
+- Add a carousel in the homepage to have a quick view of this and clickable link to gallery page
 - Add a gallery for collaborations with other photographers, models, makeup artists, etc.
 - Add a carouse for collaborations in home page
 
@@ -230,52 +219,11 @@ Layout:
 
 [Import url for css file](https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:wght@400;500&display=swap)
 
-## Checklist of commits
-
-This is a guide to know where i am at, and to track the commitments so i can have a clear vision of the project and its progress.
-
-1. first commit
-2. fix typos and improve formatting in README.md
-3. Entering basic structure with folders and files for the project
-4. update the readme
-5. readme updated
-6. merge branch (I had bug with vscode)
-7. Add a checklist to the README.md with the current commits and status of the project.
-8. Add the bug list and fixes with screenshots to the README.md file.
-9. Add the pictures in respective folders (bugs, credits) and update the README.md also update the README.md file with the new images locations.
-10. Add project structure to the README.md file.
-11. Add gallery folders inside the assets folder and 2 sub-folders one for portraits and one for studio photography and update the README.md file with the new structure.
-12. Add some comments to styles.css file to make it more clear and organized, and update the README.md
-13. Add the import style to the index.html file and update the README.md
-14. Add colors comment to style.css file and update the README.md
-15. Add description to the index.html file and update the README.md file.
-16. Add the user experience design section to the README.md file.
-17. Add more detail to the UXD in the README.md file.
-18. Add the details of UXD to the README.md file.
-19. Add a wireframe image to the README.md file.
-20. Workspace updated
-21. Add the surface plane with detail of design choices and UX considerations to the README.md file.
-22. Removed list of ideas for deployment as this are now in the UXD section, and update the README.md file.
-23. Create meta tags for search engines
-24. Add favicon to the index.html file and update the README.md file.
-25. Added basic structure to the index file and update the README.md file.
-26. Update source of favicon
-27. Fix bug (forgot to add favicon.ico to files)
-28. Add color to header, body and footer and push the footer to the bottom of the page with flex-box, and update the README.md file.
-29. Add  'Inter' to body styles
-30. Create navigation section in the header, and update the README.md file.
-31. Add Logo to header and justify content in the navigation to space around, and update the README.md file.
-32. Changed language to UK English and update the README.md file.
-33. Changed the Logo imaged to a new one, and update the README.md file.
-34. Add the navigation as a toggle for mobile devices,change the logo picture (size) and update the README.md file. (this web design is mobile first).
-35. Add a media query for table and up (768px and up) to change the navigation to a horizontal one, and update the README.md file.
-36. Fixed the bug in navigation for the media query for tablet and up, and update the README.md file.
-37. Add a media query for desktop and up (992px and up) and add hover effects to navigation links, and update the README.md file.
-38. changed the background color of the header, navigation and footer to a darker gray, and update the README.md file.
-39. Change the navigation logo for mobiles to a standard burger menu from Fontawsome, and update the README.md file.
-40. Add a footer with links to social media and copyright information with Fontawsome icons, and update the README.md file.
-41. Add some styling to the social media icons in the footer, removed the copyright text, and update the README.md file.
-42. Add portrait.html and about.html pages with the same structure as index.html, add the link and the active class to the navigation items, and update the README.md file.
+- Software libraries:
+  - Bootstrap:
+    -  The grid layout in the gallery page
+    -  The CTA button
+    -  The form linked to the CTA
 
 ## Bugs list and fixes with screenshots
 
