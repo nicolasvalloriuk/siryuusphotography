@@ -1,9 +1,11 @@
 /* asterisk wildcard selector to override default styles added by the browser */
+/*
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+*/
 /* Global CSS Variables*/
 :root {
     --primary-bg-color: #1a1a1a; /* Dark grey*/
@@ -16,7 +18,7 @@
     --font-family-secondary: "Playfair Display", "Times New Roman", Times, serif; /* Body text*/
 }
 
-/* key frames*/
+/* key frames for carousel*/
 @keyframes blur {
     from {
         filter: blur(0);
@@ -39,95 +41,35 @@ body {
     /* generic styles*/
     background-color: var(--secondary-bg-color);
     color: var(--primary-color);
-    font-family: var(--font-family-secondary);
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    
+    font-family: var(--font-family-secondary);    
 }
 
-/* h1 hidden rule*/
+/* Hidden rule*/
 .hidden {
     display: none;
 }
-/* Header */
-header {
-    background-color: var(--primary-bg-color);
-    padding: 0 1px;
-    position: fixed;
-    z-index: 99;
-    width:100%;
-    box-shadow: 0 2px 2px #3c3c3c;
-    display:flex;
-    justify-content: space-between;
-    align-items: baseline; 
-}
 
-header a {
-    padding : 5px ;
-    left: 0;
-    text-decoration: none;
-    color: inherit;
-}
-
-.logo {
-    width: 100px;
-    height: auto;
-}
-
-h1, h2 {
+/* Headings */
+h1, h2, h3 {
     font-family: var(--font-family-primary)
     text-transform: uppercase;
     letter-spacing: 2px;
     color: var(--primary-color);
 }
 
-#menu {
-    text-size-adjust: 110%;
-    letter-spacing: 4px;
-    list-style-type: none;
-}
-
-#menu > a {
-    margin-bottom: 1rem;
-    margin-left: 1rem;
-    
-}
-
-li {
-    margin: 10px 0;
-}
-.active {
-    border-bottom: 1px solid #f5f5f5
-}
-
-
 /* Navbar style with dropdown */
 nav {
-    position:absolute;
-    width: 100%;
-    left:0;
-    padding: 0 1 rem;
-    box-shadow: 0 2px 2px #3c3c3c;
-    display: none;
-    top:100%;
+    background-color: var(--primary-bg-color);
+    width: 100vh;
+}   
 
+
+
+.logo {
+    width: 100px;
+    height: auto;
 }
 
-/* Navbar toggle */
-
-#nav-toggle:checked~nav {
-    display: block;
-}
-#nav-toggle {
-    display: none;
-}
-
-.nav-toggle-label {
-    font-size: 2rem;
-    
-}
 
 /* main */
 main {
@@ -486,4 +428,7 @@ footer {
     #menu > li :hover {
         border-bottom: 1px solid #f5f5f5;
     }
+    .pad-on {
+    padding:0 10vh;
+}
 }
