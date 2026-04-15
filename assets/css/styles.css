@@ -89,6 +89,9 @@ section .container {
     height: auto;
 }
 
+.about-me-p {
+    text-align: center;
+}
 
 /* main */
 main {
