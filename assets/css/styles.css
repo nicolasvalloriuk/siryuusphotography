@@ -434,6 +434,12 @@ footer {
 }
 .photos {
     line-height: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* Gallery page*/
+.gallery {
+    column-count: 3;
 }
 
     /* About me page*/
