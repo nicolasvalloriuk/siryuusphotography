@@ -4,6 +4,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* Global CSS Variables*/
+;:root {
+    --primary-bg-color: #1a1a1a; /* Dark grey*/
+    --secondary-bg-color: #0d0d0d; /* Medium-dark gray*/
+    --shadow-color: #3c3c3c; /* light gray */
+    --border-color: #f5f5f5; /* White*/
+    --primary--color: #f5f5f5; /* White */
+    --secondary-color: #a5a5a5; /* Light gray */
+    --font-family-primary: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif; /* Headings */
+    --font-family-secondary: "Playfair Display", "Times New Roman", Times, serif; /* Body text*/
+}
+
 /* key frames*/
 @keyframes blur {
     from {
