@@ -426,4 +426,14 @@ footer {
     color:var(--primary-color);
 }
 
+    /* Gallery page */
+.photos img {
+    max-height: 400px;
+    line-height: 1em;  
 
+}
+.photos {
+    line-height: 0;
+}
+
+    /* About me page*/
