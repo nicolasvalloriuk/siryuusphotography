@@ -25,31 +25,33 @@
 
 
     </head>
-    <body>
-        <header>
-            <h1 class="hidden">Siryuus Photography, London Portrait Photographer</h1>
-            <a href="index.html">
-                <img src="assets/images/logo/logo-200x66.png" alt="Siryuus Photography" id="logo">
-            </a>
-            <input type="checkbox" id="nav-toggle" class="nav-toggle">
-            <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
-            <nav>
-                <ul id="menu">
-                    <li><a href="index.html" class="active">Home</a></li>
-                    <li><a href="portrait.html">Portrait</a></li>                
-                    <li><a href="about.html">About me</a></li>
-                </ul>
-            </nav>
+    <body class="d-flex flex-column min-vh-100">
+        <header class="container">
+            <div class="row">
+                <h1 class="hidden">Siryuus Photography, London Portrait Photographer</h1>
+                <a href="index.html">
+                    <img src="assets/images/logo/logo-200x66.png" alt="Siryuus Photography" id="logo">
+                </a>
+                <input type="checkbox" id="nav-toggle" class="nav-toggle">
+                <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
+                <nav>
+                    <ul id="menu">
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="portrait.html">Portrait</a></li>                
+                        <li><a href="about.html">About me</a></li>
+                    </ul>
+                </nav>
+            </div class="row">
         </header>
         <main>
             <section class="container">
-                <div>
+                <div class="row md-12 ">
                     <h2 class="section-title">Portraits</h2>
                 </div>
                 <!-- Carousel (Arashad) -->
-                <div class="container">
+                <div class="row">
                     <div class="component">
-                        <div class="carousel;">
+                        <div class="carousel col-12">
                             <input type="radio" name="button" class="input" id="item_1">
                             <input type="radio" name="button" class="input" id="item_2">
                             <input type="radio" name="button" class="input" id="item_3" checked>
@@ -84,14 +86,16 @@
                 </div>
             </section>
             <section class="container">
-                <div>
-                    <h2 class="hidden">About me</h2>
-                    <p>Professional portraits, made simple. Refined, high-quality photography for individuals and businesses who value a strong, confident presence. From personal branding to corporate teams, I create clean, consistent images that feel natural, polished, and true to you.
-                    </p>
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="hidden">About me</h2>
+                        <p>Professional portraits, made simple. Refined, high-quality photography for individuals and businesses who value a strong, confident presence. From personal branding to corporate teams, I create clean, consistent images that feel natural, polished, and true to you.
+                        </p>
+                    </div>
                 </div>
             </section>
         </main>
-        <footer>
+        <footer class="mt-auto">
             <ul id="social-links">
                 <li><a href="https://www.instagram.com/siryuus_photography/" target="_blank" rel="noopener noreferrer" aria-label="Visit our Instagram (opens in a new windows)"><i class="fa-brands fa-instagram"></i></a></li>
                 <li><a href="https://www.linkedin.com/company/siryuus-photography" target="_blank" rel="noopener noreferrer" aria-label="Visit our LinkedIn (opens in a new windows)"><i class="fa-brands fa-linkedin"></i></a></li>

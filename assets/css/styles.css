@@ -431,12 +431,9 @@ input.input {
 /* End of Carousel (Arashad) */
 
 
-
 /* footer */
 footer {
     background-color: var(--primary-bg-color);
-    bottom: 0;
-    position: fixed;
     width: 100%;
 }
 #social-links{
@@ -446,7 +443,6 @@ footer {
     justify-content: space-evenly;
     list-style-type: none;
 }
-
 #social-links i {
     font-size: 160%;
     padding: 5%;
