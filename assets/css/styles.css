@@ -70,6 +70,10 @@ nav {
     width: 100vh;
     max-height: 100px;
 }   
+.pad-10 {
+    margin-right: 10px;
+    margin-left: 10px;
+}
 
 section {
     min-height: 100px; /* Ensures space is held */
