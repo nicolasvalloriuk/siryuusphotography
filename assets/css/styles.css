@@ -5,12 +5,12 @@
     box-sizing: border-box;
 }
 /* Global CSS Variables*/
-;:root {
+:root {
     --primary-bg-color: #1a1a1a; /* Dark grey*/
     --secondary-bg-color: #0d0d0d; /* Medium-dark gray*/
     --shadow-color: #3c3c3c; /* light gray */
     --border-color: #f5f5f5; /* White*/
-    --primary--color: #f5f5f5; /* White */
+    --primary-color: #f5f5f5; /* White */
     --secondary-color: #a5a5a5; /* Light gray */
     --font-family-primary: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif; /* Headings */
     --font-family-secondary: "Playfair Display", "Times New Roman", Times, serif; /* Body text*/
@@ -36,12 +36,15 @@
 
 /* body */
 body {
+    /* generic styles*/
+    background-color: var(--secondary-bg-color);
+    color: var(--primary-color);
+    font-family: var(--font-family-secondary);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* generic styles*/
-    color: #f5f5f5 ;
-    font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    
 }
 
 /* h1 hidden rule*/
@@ -50,7 +53,7 @@ body {
 }
 /* Header */
 header {
-    background-color: #1a1a1a;
+    background-color: var(--primary-bg-color);
     padding: 0 1px;
     position: fixed;
     z-index: 99;
@@ -74,10 +77,10 @@ header a {
 }
 
 h1, h2 {
-    font-family: "Playfair Display", "Times New Roman", Times, serif;
+    font-family: var(--font-family-primary)
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #f5f5f5;
+    color: var(--primary-color);
 }
 
 #menu {
@@ -103,7 +106,6 @@ li {
 /* Navbar style with dropdown */
 nav {
     position:absolute;
-    background-color: #1a1a1a;
     width: 100%;
     left:0;
     padding: 0 1 rem;
@@ -128,10 +130,8 @@ nav {
 }
 
 /* main */
-body {
-    background-color: #0d0d0d;
-    /* make the main content area take up the remaining space */
-    margin: 0;
+main {
+    
 }
 
 /* Carousel (Arashad) */
@@ -434,7 +434,7 @@ input.input {
 
 /* footer */
 footer {
-    background-color: #1a1a1a;
+    background-color: var(--primary-bg-color);
     bottom: 0;
     position: fixed;
     width: 100%;
@@ -450,7 +450,7 @@ footer {
 #social-links i {
     font-size: 160%;
     padding: 5%;
-    color:#f5f5f5;
+    color:var(--primary-color);
 }
 
 /* Media Queries for tablet devices */
