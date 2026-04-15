@@ -63,7 +63,18 @@ nav {
     width: 100vh;
 }   
 
+section {
+    margin-top: 77px;
+    min-height: 100px; /* Ensures space is held */
+}
+section div {
+    margin-top: 100px;
+    
+}
+section .container {
+    align-items: center;
 
+}
 
 .logo {
     width: 100px;
@@ -83,15 +94,15 @@ main {
     text-align: center;
 }
 
-.container {
+.container-carousel {
     position:relative;
     width:1200px;
     max-width: 100%;
     height: 40vh;
     padding: 5px;
-    margin: 0 auto;
     box-sizing: border-box;
-}  
+} 
+*/ 
 .component{
     position: absolute;
     top: 275px;
