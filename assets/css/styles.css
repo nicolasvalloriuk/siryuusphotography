@@ -42,6 +42,7 @@ body {
     background-color: var(--secondary-bg-color);
     color: var(--primary-color);
     font-family: var(--font-family-secondary);    
+    text-align: center;
 }
 header {
     min-height: 100px;
@@ -85,17 +86,27 @@ section .carousel {
 
 section .container {
     align-items: center;
-
+    justify-content: center;
 }
 
 .logo {
     width: 100px;
     height: auto;
 }
+.about {
+    margin-left: 15px;
+}
 
-.about-me-p {
+.about-me {
     text-align: center;
 }
+.about-me p {
+    margin: 25px 10px;
+}
+.about-me img {
+    padding-left: 1vh;
+}
+
 
 /* main */
 main {
