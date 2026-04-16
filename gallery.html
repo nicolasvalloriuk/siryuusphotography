@@ -64,7 +64,7 @@
             <div class="container photos">
                 <h2 class="section-title">Portraits</h2>
                 <div class="text-center row photos">
-                    <div class="gallery-col-4 md-12">
+                    <div class="gallery">
                         <img src="assets/images/gallery/portrait/portrait-1.webp" alt="">
                         <img src="assets/images/gallery/portrait/portrait-2.webp" alt="">
                         <img src="assets/images/gallery/portrait/portrait-3.webp" alt="">
@@ -87,7 +87,7 @@
                 <h2>Collaborations</h2>
                 <div class="text-center row photos">
                     <h3> Collaboration with Handsol Park </h3>
-                    <div class="">
+                    <div class="gallery">
                         <img src="assets/images/gallery/collaboration/collaboration-1.webp" alt="">
                         <img src="assets/images/gallery/collaboration/collaboration-2.webp" alt="">
                         <img src="assets/images/gallery/collaboration/collaboration-3.webp" alt="">                  
@@ -123,18 +123,18 @@
                     <br>
                     <br>I also enjoy working with other creatives on ideas that go a bit further and explore something different. If you have something in mind, I’d love to hear about it. Get in touch and we can take it from there.
                     </p>
-                    <form class="row was-validated g-3">
+                    <form class="row was-validated g-3" action="https://formspree.io/f/meevaepk" method="POST">
                         <div class="col-lg-6">
                             <label for="inputName" class="form-label" >Name</label>
-                            <input type="text" class="form-control" id="inputName" required>
+                            <input type="text" class="form-control" id="inputName" name="Name" required>
                         </div>
                         <div class="col-lg-6">
                             <label for="inputEmail" class="form-label" >Email</label>
-                            <input type="email" class="form-control" id="inputEmail" required>
+                            <input type="email" class="form-control" id="inputEmail" name="Email" required>
                         </div>
                         <div class="mb-3">
                             <label for="validationTextarea" class="form-label">Textarea</label>
-                            <textarea class="form-control" id="validationTextarea" placeholder="Required example textarea" required></textarea>
+                            <textarea class="form-control" id="validationTextarea" placeholder="Required example textarea" name="text-area" required></textarea>
                         <div class="invalid-feedback">
                               Please enter here your Idea or project.
                         </div>    
