@@ -326,17 +326,6 @@ As a client, I want to see what types of photography services are offered so tha
 - [ ] Ensure readability and spacing
 - [ ] Integrate into homepage or separate page
 
-## Testing
-
-### W3C Validators
-
-#### HTML
-
-#### CSS
-
-### User Stories
-
-
 ## Credits Code
 
 - Software libraries:
@@ -364,19 +353,13 @@ This was added when connecting VScode to Github, My professor Len saw a differen
 2- **Bug in index.html file** the link to the favicon was incorrect, this caused the favicon to not appear in the browser, this was fixed by adding the correct path to the favicon in the index.html file.
 3-**Bug in navigation on media query for tablet** I forgot to hid the navigation button on the media query for tablet and up, this was fixed by adding a display: none; to the navigation button in the media query for tablet and up.
 
-## Structure of the development of the website
+## Testing
 
-----
+### W3C Validators
 
-- index.html
-- assets
-  - images
-    - bugs
-    - credits
-    - gallery
-      - portrait
-      - night
-  - css
-    - style.css
 
-----
+#### HTML
+
+#### CSS
+
+### User Stories
