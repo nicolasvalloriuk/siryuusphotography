@@ -326,14 +326,13 @@ As a client, I want to see what types of photography services are offered so tha
 - [ ] Ensure readability and spacing
 - [ ] Integrate into homepage or separate page
 
-## Credits Code
+## Credits 
 
-- Software libraries:
-  - Bootstrap:
-    -  The grid layout in the gallery page
-    -  The CTA button
-    -  The form linked to the CTA
-    
+### Images
+
+- The 404 Page picture was created from CHATGPT with the concept of this website
+- The other Pictures in this website are all mine, from my own photographjy company - Siryuus Photography
+
 ### Bootstrap
 
 - Navigation Bar was copied from Bootstrap and adjust to my website

@@ -1,13 +1,3 @@
-/* asterisk wildcard selector to override default styles added by the browser */
-/*
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-*/
-/* Global CSS Variables*/
-
 /* Root Rules*/
 :root {
     --primary-bg-color: #1a1a1a; /* Dark grey*/
@@ -77,19 +67,8 @@ section .container {
     width: 100px;
     height: auto;
 }
-.about {
-    margin-left: 15px;
-}
 
-.about-me {
-    text-align: center;
-}
-.about-me p {
-    margin: 25px 10px;
-}
-.about-me img {
-    padding-left: 1vh;
-}
+
 /* Style Form */
 form h1 {
     background-color: var(--secondary-color);
@@ -452,18 +431,30 @@ input.input {
 }
 
 /* About me page*/
-
-
-/* error page */
-.error-img {
-
-    width: 50%;
+.about {
+    margin-left: 15px;
 }
-.error {
+
+.about-me {
     text-align: center;
 }
+.about-me p {
+    margin: 25px 10px;
+}
 
+/* 404 error page */
+.error-img {
 
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+
+.error {
+    padding-top: 10vh;
+}
+
+/* Media Queries */
 
 /* Media Queries for tablet devices */
 
@@ -491,9 +482,7 @@ input.input {
         margin: 0 0.5rem;
     }
     /* main content */
-    main {
-        margin-top: 84px;
-    }
+   
     .component {
         top: 300px;
         min-height: 400px;
@@ -502,8 +491,8 @@ input.input {
 }
 
 /* Media query for laptops and tablets (992px and up)*/
-@media screen and (min-width: 992px) {
-    /* hover effect for navigation links */
+
+@media screen and (min-width: 992px) {    /* hover effect for navigation links */
     #menu > li :hover {
         border-bottom: 1px solid #f5f5f5;
     }
@@ -525,4 +514,5 @@ input.input {
     }
     .gallery img:hover {
     transform: scale(1.5)
+    }
 }
