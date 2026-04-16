@@ -1,4 +1,5 @@
 # Siryuus Photography (my photography website)
+Milestone 1 - Code Institute
 
 ## Description
 
@@ -10,10 +11,12 @@ This is my personal photography website where I will showcase my work and share 
 - CSS
 - Visual Studio Code
 - Git / GitHub
+- Bootstrap
+- Google Fonts
 
 ## How to view the project
 
-- [website](https://nicolasvalloriuk.github.io/Siryuus-Photography/)
+- [Siryuus Photography](https://nicolasvalloriuk.github.io/siryuusphotography/)
 
 ## User experience Design UXD
 
@@ -204,6 +207,108 @@ Layout:
 - Add a carousel in the homepage to have a quick view of this and clickable link to gallery page
 - Add a gallery for collaborations with other photographers, models, makeup artists, etc.
 - Add a carouse for collaborations in home page
+
+## Users Stories
+
+### User Story 1
+
+**User Story: Portfolio Showcase** (Must-have)
+As a visitor, I want to view a selection of portrait photos so that I can understand the photographer’s style and quality.
+
+**Acceptance Criteria:**
+
+- [x] Users can view a simple gallery of images on the homepage or portfolio page
+- [x] Images are displayed in a clean carousel
+- [x] The page loads quickly on mobile and desktop
+
+**Tasks:**
+
+- [x] Create responsive image carousel
+- [x] Optimise images for web performance
+- [x] Build simple portfolio page structure
+- [x] Ensure mobile responsiveness
+
+### User Story 2
+
+**User Story: Contact and Booking** (Must-have)
+As a potential client, I want to contact the photographer easily so that I can ask questions or request a booking.
+
+**Acceptance Criteria:**
+
+- [x] Users can access a contact form from any page
+- [x] Form includes name, email, and message fields
+- [x] Submission triggers a confirmation message
+- [x] Messages are sent to photographer email inbox
+- [x] Form is protected from spam (basic validation or CAPTCHA)
+
+**Tasks:**
+
+- [x] Build contact form UI
+- [x] Implement form validation
+- [x] Connect form submissions to email delivery
+- [x] Add success confirmation message
+
+### User Story 3
+
+**User Story: About the Photographer** (Must-have)
+As a visitor, I want to learn about the photographer so that I can trust their experience and style before booking.
+
+**Acceptance Criteria:**
+
+- [x] About section includes a short bio and professional tone
+- [x] Includes one portrait or personal image of the photographer
+- [x] Content is easy to read and not overly long
+- [x] Page is accessible from main navigation
+- [x] Loads quickly and is mobile-friendly
+
+**Tasks:**
+
+- [x] Create About page layout
+- [x] Insert photographer image
+- [x] Link About page in navigation menu
+- [x] Ensure responsive design
+
+### User Story 5
+
+**User Story: Client Testimonials** (Could-have) (Future Development)
+As a potential client, I want to read testimonials from previous clients so that I can feel confident in the photographer’s quality and professionalism.
+
+**Acceptance Criteria:**
+
+- [ ] Users can view at least 2–5 client testimonials on the site
+- [ ] Each testimonial includes a short quote and client name (or business name)
+- [ ] Testimonials are displayed in a clean, readable format
+- [ ] Section is accessible from the homepage or a dedicated section
+- [ ] Content loads quickly and is mobile-friendly
+
+**Tasks:**
+
+- [ ] Design testimonials section layout
+- [ ] Add sample testimonial content structure
+- [ ] Implement simple text-based display (no complex carousel required)
+- [ ] Ensure responsive styling for mobile and desktop
+- [ ] Allow easy future updates (e.g., editable content or CMS-ready)
+
+### User Story 6
+
+**User Story: Service Overview** (Could-have) (Future Development)
+As a client, I want to see what types of photography services are offered so that I understand what I can book.
+
+**Acceptance Criteria:**
+
+- [ ] Services are listed clearly in simple sections
+- [ ] Each service has a short description (1–3 lines)
+- [ ] Optional pricing indication or “starting from” info is shown
+- [ ] No complex filtering or configuration required
+- [ ] Section is easy to scan on mobile
+
+**Tasks:**
+
+- [ ] Design simple services layout
+- [ ] Add service descriptions and structure
+- [ ] Include optional pricing text
+- [ ] Ensure readability and spacing
+- [ ] Integrate into homepage or separate page
 
 ## Credits
 
