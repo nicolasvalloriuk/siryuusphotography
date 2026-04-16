@@ -210,6 +210,8 @@ Layout:
 - for the carousel design i used this tutorial: [Video Link](https://www.youtube.com/watch?v=s1hXF_UFCrU) from [Arashtad github](https://github.com/arashtad)
 ![Carousel image](assets/images/credits/carousel.jpg)
 
+-For the Form Validation I used [Formspree.io](https://formspree.io/)
+
 - Fonts from Google Fonts:
   - [Playfair Display](https://fonts.google.com/specimen/Playfair+Display)
   - [Inter](https://fonts.google.com/specimen/Inter)
