@@ -8,11 +8,13 @@ This is my personal photography website where I will showcase my work and share 
 ### Languages and Tools
 
 - HTML
-- CSS
-- Visual Studio Code
-- Git / GitHub
-- Bootstrap
-- Google Fonts
+- CSS 
+- Visual Studio Code - 
+- Git / GitHub - 
+- Bootstrap - 
+- Google Fonts - 
+- Wireframes - [Whimsical](https://whimsical.com/)
+- Image conventor jpg to webp [Freeconventer](https://www.freeconvert.com/)
 
 ## How to view the project
 
@@ -120,8 +122,12 @@ Gallery page:
 - Clear and easy navigation
 - Visually appealing design that showcases the work of the photographer
 - Clear and concise information about the photographer and how to get in touch with him
+- 
+#### Wireframes
 
-![Visual wireframe of the website](assets/images/uxd/visual-wireframe.jpg)
+![Visual wireframe of the website | Home ](assets/images/wireframes/home.webp)
+![Visual wireframe of the website | About ](assets/images/wireframes/about-me.webp)
+![Visual wireframe of the website | Gallery ](assets/images/wireframes/gallery.webp)
 
 ### 5. Surface plane
 
@@ -131,7 +137,7 @@ Color palette:
 
 - Background:
   - header / navigation bar background color: #1a1a1a (dark gray)
-  - background color: #0d0d0d (black)
+  - background color: #0d0d0 (black)
   - footer background color: #1a1a1a (dark gray)
   - box shadow color: #3c3c3c (medium gray)
   - border box color #f5f5f5f (white)
@@ -195,6 +201,12 @@ Layout:
 - Visually appealing design that showcases the work of the photographer in the best way possible
 - Easy navigation with a clear structure and hierarchy of information
 
+#### Design
+
+![Color Palette](assets/images/design/color-palette.webp)
+![Typography 1](assets/images/design/typography-1.webp)
+![Typography 2](assets/images/design/typography-2.webp)
+
 #### UX Reflections
 
 **What worked well:**
@@ -209,6 +221,8 @@ Layout:
 - Add a carouse for collaborations in home page
 
 ## Users Stories
+
+This has been implemented in GitHub Projects to follow along
 
 ### User Story 1
 
@@ -309,6 +323,17 @@ As a client, I want to see what types of photography services are offered so tha
 - [ ] Include optional pricing text
 - [ ] Ensure readability and spacing
 - [ ] Integrate into homepage or separate page
+
+## Testing
+
+### W3C Validators
+
+#### HTML
+
+#### CSS
+
+### User Stories
+
 
 ## Credits
 
