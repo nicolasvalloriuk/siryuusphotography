@@ -12,9 +12,11 @@ This is my personal photography website where I will showcase my work and share 
 - Visual Studio Code - 
 - Git / GitHub - 
 - Bootstrap - 
-- Google Fonts - 
+- Google Fonts - [Google Fonts] (https://fonts.google.com/)
 - Wireframes - [Whimsical](https://whimsical.com/)
 - Image conventor jpg to webp [Freeconventer](https://www.freeconvert.com/)
+- Icons from [Font Awesome](https://fontawesome.com/)
+- For the Form Validation I used [Formspree.io](https://formspree.io/)
 
 ## How to view the project
 
@@ -335,27 +337,24 @@ As a client, I want to see what types of photography services are offered so tha
 ### User Stories
 
 
-## Credits
-
-- for the carousel design i used this tutorial: [Video Link](https://www.youtube.com/watch?v=s1hXF_UFCrU) from [Arashtad github](https://github.com/arashtad)
-![Carousel image](assets/images/credits/carousel.jpg)
-
--For the Form Validation I used [Formspree.io](https://formspree.io/)
-
-- Fonts from Google Fonts:
-  - [Playfair Display](https://fonts.google.com/specimen/Playfair+Display)
-  - [Inter](https://fonts.google.com/specimen/Inter)
-  - [Helvetica Neue](https://fonts.google.com/specimen/Helvetica+Neue)
-  - [Times New Roman](https://fonts.google.com/specimen/Times+New+Roman)
-  - [Icons from Font Awesome](https://fontawesome.com/)
-
-[Import url for css file](https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:wght@400;500&display=swap)
+## Credits Code
 
 - Software libraries:
   - Bootstrap:
     -  The grid layout in the gallery page
     -  The CTA button
     -  The form linked to the CTA
+    
+### Bootstrap
+
+- Navigation Bar was copied from Bootstrap and adjust to my website
+- CTA Contact me button was copied from Bootstrap and adjust to my website
+- Form was copied from Bootstrap and adjust to my website
+
+### Carousel
+
+- for the carousel design i used this tutorial: [Video Link](https://www.youtube.com/watch?v=s1hXF_UFCrU) from [Arashtad github](https://github.com/arashtad)
+![Carousel image](assets/images/credits/carousel.jpg)
 
 ## Bugs list and fixes with screenshots
 
