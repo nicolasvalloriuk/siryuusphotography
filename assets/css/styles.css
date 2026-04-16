@@ -50,6 +50,8 @@ nav {
     margin-left: 10px;
 }
 
+/*section styling */
+
 section {
     min-height: 100px;
 }
@@ -441,6 +443,9 @@ input.input {
 .about-me p {
     margin: 25px 10px;
 }
+.about-picture {
+    border-radius: 50%;
+}
 
 /* 404 error page */
 .error-img {
@@ -514,5 +519,8 @@ input.input {
     }
     .gallery img:hover {
     transform: scale(1.5)
+    }
+    .about {
+        align-items: center;
     }
 }
