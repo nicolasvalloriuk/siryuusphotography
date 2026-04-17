@@ -346,18 +346,18 @@ As any user if i find a broken link, i would like to see a personalised error wi
 **Acceptance Criteria:**
 
 - [x]  404 Error Page
-- [x]  Personilised to the website
+- [x]  Personalised to the website
 - [x]  Have a button to redirect to Home page
-- [x]  Simple information of error page
+- [x]  Simple information of the error page
 - [x]  Personalised image
 
 **Tasks:**
 
 - [x] Create a 404.html page
-- [x] Design a simple page with the same background and text than the website
+- [x] Design a simple page with the same background and text as the website
 - [x] Add a simple and clear description
 - [x] Add a button that states go back to home page
-- [x] add a personilised image to the page
+- [x] add a personalised image to the page
 
 ## Credits 
 
