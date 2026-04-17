@@ -1,26 +1,36 @@
 # Siryuus Photography (my photography website)
 Milestone 1 - Code Institute
 
+Deployed Site - [Siryuus Photography](https://nicolasvalloriuk.github.io/siryuusphotography/)
+
 ## Description
 
 This is my personal photography website where I will showcase my work and share my passion for portrait photography. This is aimed for users interested in portrait photography who would like to see my work and get in touch with me for a photoshoot. This will also be a way to share my work with other photographers and potential collaborators.
 
-### Languages and Tools
+## Content
+1. [Description](#description)
+2. [content](#content)
+3. [Languages and Tools](#languages-and-tools)
+4. [User experience Design](#user-experience-design-uxd)
+5. [User stories](#user-stories)
+6. [Credits](#credits)
+7. [Bugs](#bugs-list-and-fixes-with-screenshots)
+8. [Testing](#testing)
 
-- HTML
-- CSS 
-- Visual Studio Code - 
-- Git / GitHub - 
-- Bootstrap - 
-- Google Fonts - [Google Fonts] (https://fonts.google.com/)
-- Wireframes - [Whimsical](https://whimsical.com/)
-- Image conventor jpg to webp [Freeconventer](https://www.freeconvert.com/)
-- Icons from [Font Awesome](https://fontawesome.com/)
-- For the Form Validation I used [Formspree.io](https://formspree.io/)
+## Languages and Tools
 
-## How to view the project
-
-- [Siryuus Photography](https://nicolasvalloriuk.github.io/siryuusphotography/)
+- **HTML** Structure of website
+- **CSS** Styling and layout of the site
+- **VSCode** - Code editor [VS Code link](https://code.visualstudio.com/)
+- **Git** - version control [Git link](https://git-scm.com/)
+- **GitHub** - developer tool used for project management and code hosting [GitHub link](https://github.com/)
+- **Bootstrap** - software library [Bootstrap](https://getbootstrap.com/)
+- **Google Fonts** - [Google Fonts] (https://fonts.google.com/)
+- **Wireframes** - [Whimsical](https://whimsical.com/)
+- **Image conventor jpg to webp** [Freeconventer](https://www.freeconvert.com/)
+- **Font Awesome** [link to Font Awesome](https://fontawesome.com/)
+- **Fromspree** [link to Formspree.io](https://formspree.io/)
+- **Google Developer Tools** - to inspect and check the code
 
 ## User experience Design UXD
 
@@ -57,6 +67,8 @@ Create a website that is easy to navigate, visually appealing and that showcases
 
 **Value proposition:**
 A simple and clear website that showcases the work of the photographer in a visually appealing way, making it easy for potential customers to find the information they need and get in touch with the photographer.
+
+for more information check - [User Stories](#user-stories)
 
 ### 2. Scope plane
 
@@ -375,9 +387,10 @@ This was added when connecting VScode to Github, My professor Len saw a differen
 
 ## Testing
 
-### W3C Validators
+[Validator w3 - for HTML](https://validator.w3.org/)
+[Jigsaww3 - for CSS](https://jigsaw.w3.org/css-validator/)
 
-Testing plan:
+### Testing plan:
 
 - Test each html page
   - index.html
@@ -395,10 +408,10 @@ Testing plan:
   - User story 6
 
 - Test Deployed site next to Deployment version
-  - Check index.html (each screen size)
-  - Check about.html (each screen size)
-  - Check gallery.html (each screen size)
-  - Check 404.html (each screen size)
+  - Check index.html
+  - Check about.html
+  - Check gallery.html
+  - Check 404.html
 
 #### HTML
 
