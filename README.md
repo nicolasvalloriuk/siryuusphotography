@@ -284,7 +284,7 @@ As a visitor, I want to learn about the photographer so that I can trust their e
 - [x] Link About page in navigation menu
 - [x] Ensure responsive design
 
-### User Story 5
+### User Story 4
 
 **User Story: Client Testimonials** (Could-have) (Future Development)
 As a potential client, I want to read testimonials from previous clients so that I can feel confident in the photographer’s quality and professionalism.
@@ -305,7 +305,7 @@ As a potential client, I want to read testimonials from previous clients so that
 - [ ] Ensure responsive styling for mobile and desktop
 - [ ] Allow easy future updates (e.g., editable content or CMS-ready)
 
-### User Story 6
+### User Story 5
 
 **User Story: Service Overview** (Could-have) (Future Development)
 As a client, I want to see what types of photography services are offered so that I understand what I can book.
@@ -325,6 +325,27 @@ As a client, I want to see what types of photography services are offered so tha
 - [ ] Include optional pricing text
 - [ ] Ensure readability and spacing
 - [ ] Integrate into homepage or separate page
+
+### User Story 6
+
+**User Story: 404 Page** (should-have)
+As any user if i find a broken link, i would like to see a personalised error with a link to be redirected to the homepage.
+
+**Acceptance Criteria:**
+
+- [x]  404 Error Page
+- [x]  Personilised to the website
+- [x]  Have a button to redirect to Home page
+- [x]  Simple information of error page
+- [x]  Personalised image
+
+**Tasks:**
+
+- [x] Create a 404.html page
+- [x] Design a simple page with the same background and text than the website
+- [x] Add a simple and clear description
+- [x] Add a button that states go back to home page
+- [x] add a personilised image to the page
 
 ## Credits 
 
@@ -356,9 +377,42 @@ This was added when connecting VScode to Github, My professor Len saw a differen
 
 ### W3C Validators
 
-
 #### HTML
+
+- 
 
 #### CSS
 
+- 
+
 ### User Stories
+
+**User Story: Portfolio Showcase** (Must-have)
+As a visitor, I want to view a selection of portrait photos so that I can understand the photographer’s style and quality.
+
+There is a Visible gallery with the portfolio of the client on a gallery page and also in the home page.
+
+![User Story 1 carousel](assets/images/user-stories/User-story-1-carousel.jpg)
+![User Story 1](assets/images/user-stories/User-story-1.jpg)
+
+**User Story: Contact and Booking** (Must-have)
+As a potential client, I want to contact the photographer easily so that I can ask questions or request a booking.
+
+There is a clear CTA button on the navigation menu, with easy access from every page and device.
+
+![User Story 2](assets/images/user-stories/User-story-2.jpg)
+
+**User Story: About the Photographer** (Must-have)
+As a visitor, I want to learn about the photographer so that I can trust their experience and style before booking.
+
+There is a small description on the Home page, and a dedicated page about me.
+
+![User Story 3 home section](assets/images/user-stories/User-story-3-home.jpg)
+![User Story 3 about page](assets/images/user-stories/User-story-3.jpg)
+
+**User Story: 404 Page** (should-have)
+As any user if i find a broken link, i would like to see a personalised error with a link to be redirected to the homepage.
+
+There is a simple yet clear page when there is a broken link o page not found
+
+![User Story 6](assets/images/user-stories/User-story-6.jpg)
