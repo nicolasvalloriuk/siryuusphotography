@@ -443,8 +443,10 @@ input.input {
 .about-me p {
     margin: 25px 10px;
 }
-.about-picture {
+#about-picture {
     border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
 }
 
 /* 404 error page */
