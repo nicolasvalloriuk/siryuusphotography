@@ -31,14 +31,6 @@ label {
     display: none;
 }
 
-/* Headings */
-h1, h2, h3 {
-    font-family: var(--font-family-primary);
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: var(--primary-color);
-}
-
 /* Navbar style with dropdown */
 nav {
     background-color: var(--primary-bg-color);
@@ -431,6 +423,9 @@ input.input {
     justify-content: space-around;
     flex-wrap: wrap;
 }
+.section-title {
+
+}
 
 /* About me page*/
 .about {
@@ -523,6 +518,5 @@ input.input {
     }
     .about {
         align-items: center;
-    }
-    
+    }   
 }

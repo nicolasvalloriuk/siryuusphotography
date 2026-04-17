@@ -449,3 +449,18 @@ As any user if i find a broken link, i would like to see a personalised error wi
 There is a simple yet clear page when there is a broken link o page not found
 
 ![User Story 6](assets/images/user-stories/User-story-6.jpg)
+
+### Deployed vs Deployment testing
+
+The Pictures on the left side are the Deployed site, and the pictures on the right are the Deployment
+Index
+![index.html deployment test](assets/images/test/dep-index.jpg)
+
+About me
+![about.html deployment test](assets/images/test/dep-about.jpg)
+
+Gallery
+![gallery.html deployment test](assets/images/test/dep-gallery.jpg)
+
+404
+![404.html deployment test](assets/images/test/dep-404.jpg)
