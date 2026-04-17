@@ -377,6 +377,29 @@ This was added when connecting VScode to Github, My professor Len saw a differen
 
 ### W3C Validators
 
+Testing plan:
+
+- Test each html page
+  - index.html
+  - about.html
+  - gallery.html
+  - 404.html
+
+- Test style CSS
+  - style.css
+
+- Test User Stories
+  - User story 1
+  - User story 2
+  - User story 3
+  - User story 6
+
+- Test Deployed site next to Deployment version
+  - Check index.html (each screen size)
+  - Check about.html (each screen size)
+  - Check gallery.html (each screen size)
+  - Check 404.html (each screen size)
+
 #### HTML
 
 - 
