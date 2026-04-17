@@ -402,11 +402,21 @@ Testing plan:
 
 #### HTML
 
-- 
+- Test index.html
+![index.html test](assets/images/test/index-test.jpg)
+- Test about.html
+![about.html test](assets/images/test/about-test.jpg)
+- Test gallery.html
+![gallery.html test](assets/images/test/gallery-test.jpg)
+- Test about-html
+![about.html test](assets/images/test/about-test.jpg)
+
 
 #### CSS
 
-- 
+- Test style.css
+![style.css test](assets/images/test/css-test.jpg) 
+![style.css test](assets/images/test/css-test-2.jpg) 
 
 ### User Stories
 

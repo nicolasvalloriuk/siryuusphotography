@@ -33,7 +33,7 @@ label {
 
 /* Headings */
 h1, h2, h3 {
-    font-family: var(--font-family-primary)
+    font-family: var(--font-family-primary);
     text-transform: uppercase;
     letter-spacing: 2px;
     color: var(--primary-color);
@@ -525,7 +525,4 @@ input.input {
         align-items: center;
     }
     
-}
-@media screen and (min-width: 1200) {
-
 }
