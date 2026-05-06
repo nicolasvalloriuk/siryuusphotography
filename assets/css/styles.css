@@ -62,7 +62,6 @@ section .container {
     height: auto;
 }
 
-
 /* Style Form */
 form h1 {
     background-color: var(--secondary-color);
@@ -89,7 +88,6 @@ footer {
 }
 
 /* Main Page */
-
 /* key frames for carousel*/
 @keyframes blur {
     from {
@@ -189,7 +187,6 @@ input.input {
     background: #999;
     transform: scale(1.5);
     cursor: default;
-
 }
 #item_1:checked~.nav label[for="item_2"],
 #item_1:checked~.nav label[for="item_3"],
@@ -210,7 +207,8 @@ input.input {
 #item_1:checked~.items label[for="item_5"] {
     animation: blur 1s 1 forwards;
 }
-    /* change position inside the carousel*/
+
+/* change position inside the carousel*/
 #item_1:checked~.items label[for="item_2"] {
     transform: translate3d(250px, 0, -100px) rotateY(-20deg);
     z-index: 2;
@@ -233,7 +231,6 @@ input.input {
     background: #999;
     transform: scale(1.5);
     cursor: default;
-
 }
 #item_2:checked~.nav label[for="item_1"],
 #item_2:checked~.nav label[for="item_3"],
@@ -254,7 +251,6 @@ input.input {
 #item_2:checked~.items label[for="item_5"] {
     animation: blur 1s 1 forwards;
 }
-
     /* change position inside the carousel*/
 #item_2:checked~.items label[for="item_3"] {
     transform: translate3d(250px, 0, -100px) rotateY(-20deg);
@@ -272,7 +268,6 @@ input.input {
     transform: translate3d(-250px, 0, -100px) rotateY(20deg);
     z-index: 2;
 }
-
     /* item 3 */
 #item_3:checked~.nav label[for="item_3"] {
     background: #999;
@@ -316,7 +311,6 @@ input.input {
     transform: translate3d(-250px, 0, -100px) rotateY(20deg);
     z-index: 2;
 }
-
     /* item 4*/
 #item_4:checked~.nav label[for="item_4"] {
     background: #999;
@@ -360,13 +354,11 @@ input.input {
     transform: translate3d(-250px, 0, -100px) rotateY(20deg);
     z-index: 2;
 }
-
     /* item 5*/
 #item_5:checked~.nav label[for="item_5"] {
     background: #999;
     transform: scale(1.5);
     cursor: default;
-
 }
 #item_5:checked~.nav label[for="item_1"],
 #item_5:checked~.nav label[for="item_2"],
@@ -407,14 +399,10 @@ input.input {
 /* End of Carousel (Arashad) */
 
 
-
-
-
 /* Gallery page*/
 .photos img {
     max-height: 400px;
     line-height: 1em;  
-
 }
 .photos {
     line-height: 0;
@@ -423,15 +411,11 @@ input.input {
     justify-content: space-around;
     flex-wrap: wrap;
 }
-.section-title {
-
-}
 
 /* About me page*/
 .about {
     margin-left: 15px;
 }
-
 .about-me {
     text-align: center;
 }
@@ -446,18 +430,15 @@ input.input {
 
 /* 404 error page */
 .error-img {
-
     align-items: center;
     justify-content: center;
     width: 30%;
 }
-
 .error {
     padding-top: 10vh;
 }
 
 /* Media Queries */
-
 /* Media Queries for tablet devices */
 
 @media screen and (min-width: 768px) {
@@ -488,7 +469,6 @@ input.input {
     .component {
         min-height: 400px;
     }
-
 }
 
 /* Media query for laptops and tablets (992px and up)*/
