@@ -15,7 +15,8 @@ This is my personal photography website where I will showcase my work and share 
 5. [User stories](#user-stories)
 6. [Credits](#credits)
 7. [Bugs](#bugs-list-and-fixes-with-screenshots)
-8. [Testing](#testing)
+8. [Deployment](#deployment-your-version-of-the-website)
+9. [Testing](#testing)
 
 ## Languages and Tools
 
@@ -385,6 +386,40 @@ This was added when connecting VScode to Github, My professor Len saw a differen
 2- **Bug in index.html file** the link to the favicon was incorrect, this caused the favicon to not appear in the browser, this was fixed by adding the correct path to the favicon in the index.html file.
 3-**Bug in navigation on media query for tablet** I forgot to hid the navigation button on the media query for tablet and up, this was fixed by adding a display: none; to the navigation button in the media query for tablet and up.
 
+## Deployment your version of the website
+
+This website was deployed using GitHub Pages, which is a free hosting service provided by GitHub.
+The deployment process to deploy your version of the website involves the following steps:
+
+1. **Create a GitHub repository for your project**
+In your own GitHub account in all repositories, click the create new repository button, and add a name for your repository, then click on create repository.
+2. **Clone the original repository to your local machine using Git**
+   on the https://github.com/nicolasvalloriuk/siryuusphotography page, click on the code button and copy the link, then in your terminal run the command:
+
+- git clone [copied link]
+
+3. **Change the remote origin to your own repository**
+   As you connected a external repository is important to change the remote origin to your own repository, to do this run the command:
+
+- git remote remove origin
+- git remote add origin [your repository link] (example: git remote add origin https://github.com/
+YOUR-USERNAME/YOUR-REPO.git)
+
+4. **Push your code to your own repository using Git**
+Before making any changes, to ensure you're connected to your own repository, run the command:
+
+- git remote -v
+
+And then push the code to your own repository using the command:
+
+- git add .
+- git commit -m "Initial commit"
+- git push -u origin main
+
+5. **Enable GitHub Pages**
+In your repository, click on settings, then scroll down to the GitHub Pages section, and select the branch (main) and click on save.
+This will generate a link to your deployed website, which you can see the project and share with others.
+
 ## Testing
 
 [Validator w3 - for HTML](https://validator.w3.org/)
@@ -431,7 +466,7 @@ This was added when connecting VScode to Github, My professor Len saw a differen
 ![style.css test](assets/images/test/css-test.jpg) 
 ![style.css test](assets/images/test/css-test-2.jpg) 
 
-### User Stories
+### User Stories testing
 
 **User Story: Portfolio Showcase** (Must-have)
 As a visitor, I want to view a selection of portrait photos so that I can understand the photographer’s style and quality.
