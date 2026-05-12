@@ -17,7 +17,7 @@ This is my personal photography website where I will showcase my work and share 
 5. [User stories](#users-stories)
 6. [Credits](#credits)
 7. [Bugs](#bugs-list-and-fixes-with-screenshots)
-8. [Deployment](#deployment-your-version-of-the-website)
+8. [Deployment](#deploy-your-version-of-the-website)
 9. [Testing](#testing)
 
 ## Languages and Tools
@@ -369,7 +369,7 @@ As any user if i find a broken link, i would like to see a personalised error wi
 ### Images
 
 - The 404 Page picture was created from CHATGPT with the concept of this website
-- The other Pictures in this website are all mine, from my own photographjy company - Siryuus Photography
+- The other Pictures in this website are all mine, from my own photography company - Siryuus Photography
 
 ### Bootstrap
 
@@ -390,7 +390,7 @@ This was added when connecting VScode to Github, My professor Len saw a differen
 2- **Bug in index.html file** the link to the favicon was incorrect, this caused the favicon to not appear in the browser, this was fixed by adding the correct path to the favicon in the index.html file.
 3-**Bug in navigation on media query for tablet** I forgot to hid the navigation button on the media query for tablet and up, this was fixed by adding a display: none; to the navigation button in the media query for tablet and up.
 
-## Deployment your version of the website
+## Deploy your version of the website
 
 This website was deployed using GitHub Pages, which is a free hosting service provided by GitHub.
 The deployment process to deploy your version of the website involves the following steps:
@@ -430,6 +430,8 @@ validate the html pages and css file with the w3 validator and jigsaww3, test th
 ### HTML testing with W3validator
 
 - Test each html page with [HTML Validator w3](https://validator.w3.org/)
+To do this, I use the validate direct input option and copy the code of each html page from the browser, using the view source code from google chrome tools and paste it in the validator, then I check the results and fix any errors that appear.
+
   - index.html
 ![index.html test](assets/images/test/index-validation-w3.jpg)
   - gallery.html
@@ -442,12 +444,16 @@ validate the html pages and css file with the w3 validator and jigsaww3, test th
 ### CSS testing with Jigsaww3
 
 - Test style.css with [css Validator w3](https://validator.w3.org/) & [Jigsaw w3](https://jigsaw.w3.org/css-validator/)
+To do this I copy the code from the style.css file and paste it in the validator, then I check the results and fix any errors that appear.
+
   - W3 Validator
 ![style.css test](assets/images/test/css-validation-w3.jpg)
   - Jigsaw w3
 ![style.css test](assets/images/test/css-validation-jigsaw-w3.jpg)
 
 ### User Stories testing against the deployed site
+
+As a user, I will test the deployed site against the user stories to check if they are implemented correctly and if they meet the acceptance criteria.
 
 **User Story: Portfolio Showcase** (Must-have)
 As a visitor, I want to view a selection of portrait photos so that I can understand the photographer’s style and quality.
@@ -494,6 +500,8 @@ The pictures on the left are the development, and the right the deployed version
 
 ### Test responsiveness of the website on different devices and screen sizes
 
+I tested the responsiveness of the website on different devices and screen sizes using Google Developer Tools, I checked the website on mobile, tablet and desktop view to ensure that the website is responsive and looks good on all devices.
+
 - home page
   - mobile and tablet
 ![Home page on mobile and tablet](assets/images/test/responsiveness-test-mobile-tablet-index.jpg)
@@ -519,6 +527,8 @@ The pictures on the left are the development, and the right the deployed version
 ![404 page on desktop](assets/images/test/responsiveness-test-desktop-404.jpg)
 
 ### Test performance of the website with Google Developer Tools Lighthouse
+
+Using Google Developer Tools Lighthouse, I tested the performance of the website desktop view, to check the loading time, performance and accessibility of the website.
 
 - Home and gallery page
 ![Home page performance test](assets/images/test/lighthouse-test-home-and-gallery.jpg)
