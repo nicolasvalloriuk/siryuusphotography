@@ -1,4 +1,5 @@
 # Siryuus Photography (my photography website)
+
 Milestone 1 - Code Institute
 
 Deployed Site - [Siryuus Photography](https://nicolasvalloriuk.github.io/siryuusphotography/)
@@ -8,11 +9,12 @@ Deployed Site - [Siryuus Photography](https://nicolasvalloriuk.github.io/siryuus
 This is my personal photography website where I will showcase my work and share my passion for portrait photography. This is aimed for users interested in portrait photography who would like to see my work and get in touch with me for a photoshoot. This will also be a way to share my work with other photographers and potential collaborators.
 
 ## Content
+
 1. [Description](#description)
 2. [content](#content)
 3. [Languages and Tools](#languages-and-tools)
 4. [User experience Design](#user-experience-design-uxd)
-5. [User stories](#user-stories)
+5. [User stories](#users-stories)
 6. [Credits](#credits)
 7. [Bugs](#bugs-list-and-fixes-with-screenshots)
 8. [Deployment](#deployment-your-version-of-the-website)
@@ -26,7 +28,7 @@ This is my personal photography website where I will showcase my work and share 
 - **Git** - version control [Git link](https://git-scm.com/)
 - **GitHub** - developer tool used for project management and code hosting [GitHub link](https://github.com/)
 - **Bootstrap** - software library [Bootstrap](https://getbootstrap.com/)
-- **Google Fonts** - [Google Fonts] (https://fonts.google.com/)
+- **Google Fonts** - [Google Fonts](https://fonts.google.com/)
 - **Wireframes** - [Whimsical](https://whimsical.com/)
 - **Image conventor jpg to webp** [Freeconventer](https://www.freeconvert.com/)
 - **Font Awesome** [link to Font Awesome](https://fontawesome.com/)
@@ -69,7 +71,7 @@ Create a website that is easy to navigate, visually appealing and that showcases
 **Value proposition:**
 A simple and clear website that showcases the work of the photographer in a visually appealing way, making it easy for potential customers to find the information they need and get in touch with the photographer.
 
-for more information check - [User Stories](#user-stories)
+for more information check - [User Stories](#users-stories)
 
 ### 2. Scope plane
 
@@ -137,7 +139,7 @@ Gallery page:
 - Clear and easy navigation
 - Visually appealing design that showcases the work of the photographer
 - Clear and concise information about the photographer and how to get in touch with him
-- 
+
 #### Wireframes
 
 ![Visual wireframe of the website | Home ](assets/images/wireframes/home.webp)
@@ -362,7 +364,7 @@ As any user if i find a broken link, i would like to see a personalised error wi
 - [x] Add a button that states go back to home page
 - [x] add a personalised image to the page
 
-## Credits 
+## Credits
 
 ### Images
 
@@ -396,28 +398,20 @@ The deployment process to deploy your version of the website involves the follow
 1. **Create a GitHub repository for your project**
 In your own GitHub account in all repositories, click the create new repository button, and add a name for your repository, then click on create repository.
 2. **Clone the original repository to your local machine using Git**
-   on the https://github.com/nicolasvalloriuk/siryuusphotography page, click on the code button and copy the link, then in your terminal run the command:
+   on the [Siryuus Photography](https://github.com/nicolasvalloriuk/siryuusphotography) page, click on the code button and copy the link, then in your terminal run the command:
 
-- git clone [copied link]
-
+   - git clone [copied link]
 3. **Change the remote origin to your own repository**
    As you connected a external repository is important to change the remote origin to your own repository, to do this run the command:
-
-- git remote remove origin
-- git remote add origin [your repository link] (example: git remote add origin https://github.com/
-YOUR-USERNAME/YOUR-REPO.git)
-
+   - git remote remove origin
+   - git remote add origin [your repository link] (example: git remote add origin [https://github.com/YOUR-USERNAME/YOUR-REPO.git](https://github.com/YOUR-USERNAME/YOUR-REPO.git))
 4. **Push your code to your own repository using Git**
 Before making any changes, to ensure you're connected to your own repository, run the command:
-
-- git remote -v
-
-And then push the code to your own repository using the command:
-
-- git add .
-- git commit -m "Initial commit"
-- git push -u origin main
-
+   - git remote -v
+  And then push the code to your own repository using the command:
+   - git add .
+   - git commit -m "Initial commit"
+   - git push -u origin main
 5. **Enable GitHub Pages**
 In your repository, click on settings, then scroll down to the GitHub Pages section, and select the branch (main) and click on save.
 This will generate a link to your deployed website, which you can see the project and share with others.
@@ -431,7 +425,7 @@ validate the html pages and css file with the w3 validator and jigsaww3, test th
 
 [Validator w3 - for HTML](https://validator.w3.org/)
 [Jigsaww3 - for CSS](https://jigsaw.w3.org/css-validator/)
-
+[Google Developer Tools Lighthouse - for performance](https://developers.google.com/web/tools/lighthouse)
 
 ### HTML testing with W3validator
 
@@ -452,7 +446,6 @@ validate the html pages and css file with the w3 validator and jigsaww3, test th
 ![style.css test](assets/images/test/css-validation-w3.jpg)
   - Jigsaw w3
 ![style.css test](assets/images/test/css-validation-jigsaw-w3.jpg)
-
 
 ### User Stories testing against the deployed site
 
@@ -527,7 +520,7 @@ The pictures on the left are the development, and the right the deployed version
 
 ### Test performance of the website with Google Developer Tools Lighthouse
 
-- Home and gallery page 
+- Home and gallery page
 ![Home page performance test](assets/images/test/lighthouse-test-home-and-gallery.jpg)
 - About me and 404 page
 ![About me and 404 page performance test](assets/images/test/lighthouse-test-about-and-404.jpg)
