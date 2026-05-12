@@ -495,14 +495,37 @@ The pictures on the left are the development, and the right the deployed version
 - About me
 ![about.html deployment test](assets/images/test/deploy-vs-dev-test-about.jpg)
 - 404
-![404.html deployment test](assets/images/test/dep-404.jpg)
+![404.html deployment test](assets/images/test/deploy-vs-dev-test-404.jpg)
 
 ### Test responsiveness of the website on different devices and screen sizes
 
 - home page
+  - mobile and tablet
+![Home page on mobile and tablet](assets/images/test/responsiveness-test-mobile-tablet-index.jpg)
+  - home page on desktop
+![Home page in desktop](assets/images/test/responsiveness-test-desktop-index.jpg)
 
 - gallery page
+  - gallery page on mobile and tablet
+![Gallery page on mobile and tablet](assets/images/test/responsiveness-test-mobile-tablet-gallery.jpg)
+  - gallery page on desktop
+![Gallery page on desktop](assets/images/test/responsiveness-test-desktop-gallery.jpg)
 
 - about me page
+  - about me page on mobile and tablet
+![About me page on mobile and tablet](assets/images/test/responsiveness-test-mobile-tablet-about.jpg)
+  - about me page on desktop
+![About me page on desktop](assets/images/test/responsiveness-test-desktop-about.jpg)
 
 - 404 page
+  - 404 page on mobile and tablet
+![404 page on mobile and tablet](assets/images/test/responsiveness-test-mobile-tablet-404.jpg)
+  - 404 page on desktop
+![404 page on desktop](assets/images/test/responsiveness-test-desktop-404.jpg)
+
+### Test performance of the website with Google Developer Tools Lighthouse
+
+- Home and gallery page 
+![Home page performance test](assets/images/test/lighthouse-test-home-and-gallery.jpg)
+- About me and 404 page
+![About me and 404 page performance test](assets/images/test/lighthouse-test-about-and-404.jpg)
