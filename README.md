@@ -422,51 +422,37 @@ This will generate a link to your deployed website, which you can see the projec
 
 ## Testing
 
+In this section, I will test the website against the following criteria:
+validate the html pages and css file with the w3 validator and jigsaww3, test the user stories against the deployed site, test the deployed site next to the deployment version and check possible differences between them, and test the responsiveness of the website on different devices and screen sizes.
+
+### Testing tools
+
 [Validator w3 - for HTML](https://validator.w3.org/)
 [Jigsaww3 - for CSS](https://jigsaw.w3.org/css-validator/)
 
-### Testing plan:
 
-- Test each html page
+### HTML testing with W3validator
+
+- Test each html page with [HTML Validator w3](https://validator.w3.org/)
   - index.html
-  - about.html
-  - gallery.html
-  - 404.html
-
-- Test style CSS
-  - style.css
-
-- Test User Stories
-  - User story 1
-  - User story 2
-  - User story 3
-  - User story 6
-
-- Test Deployed site next to Deployment version
-  - Check index.html
-  - Check about.html
-  - Check gallery.html
-  - Check 404.html
-
-#### HTML
-
-- Test index.html
 ![index.html test](assets/images/test/index-test.jpg)
-- Test about.html
-![about.html test](assets/images/test/about-test.jpg)
-- Test gallery.html
+  - about.html
+![about.html test](assets/images/test/about-test.jpg)  
+  - gallery.html
 ![gallery.html test](assets/images/test/gallery-test.jpg)
-- Test about-html
+  - 404.html
 ![about.html test](assets/images/test/about-test.jpg)
 
+### CSS testing with Jigsaww3
 
-#### CSS
-
-- Test style.css
-![style.css test](assets/images/test/css-test.jpg) 
+- Test style.css with [css Validator w3](https://validator.w3.org/) & [Jigsaw w3](https://jigsaw.w3.org/css-validator/)
+  - W3 Validator
+![style.css test](assets/images/test/css-test.jpg)
+  - Jigsaw w3
 ![style.css test](assets/images/test/css-test-2.jpg) 
 
-### User Stories testing
+
+### User Stories testing against the deployed site
 
 **User Story: Portfolio Showcase** (Must-have)
 As a visitor, I want to view a selection of portrait photos so that I can understand the photographer’s style and quality.
@@ -498,17 +484,25 @@ There is a simple yet clear page when there is a broken link o page not found
 
 ![User Story 6](assets/images/user-stories/User-story-6.jpg)
 
-### Deployed vs Deployment testing
+### Test Deployed site next to Deployment version and check possible differences between them
 
 The Pictures on the left side are the Deployed site, and the pictures on the right are the Deployment
-Index
+
+- Index.html
 ![index.html deployment test](assets/images/test/dep-index.jpg)
-
-About me
+- About me
 ![about.html deployment test](assets/images/test/dep-about.jpg)
-
-Gallery
+- Gallery
 ![gallery.html deployment test](assets/images/test/dep-gallery.jpg)
-
-404
+- 404
 ![404.html deployment test](assets/images/test/dep-404.jpg)
+
+### Test responsiveness of the website on different devices and screen sizes
+
+- home page
+
+- gallery page
+
+- about me page
+
+- 404 page
