@@ -230,10 +230,12 @@ Layout:
 
 **Future improvements:**
 
+- Make the carousel more interactive and dynamic with javascript (swipe functionality, automatic sliding, etc. in mobile and tablet)
 - Add a galleries page dedicated to artistic studio photography/events
-- Add a carousel in the homepage to have a quick view of this and clickable link to gallery page
-- Add a gallery for collaborations with other photographers, models, makeup artists, etc.
+- Add a carousel in the homepage to have a quick view of studio/events and clickable link to gallery page
+- Add a separated gallery for collaborations with other photographers, models, makeup artists, etc.
 - Add a carouse for collaborations in home page
+- remove the collaboration from portraits gallery
 
 ## Users Stories
 
