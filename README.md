@@ -435,21 +435,21 @@ validate the html pages and css file with the w3 validator and jigsaww3, test th
 
 - Test each html page with [HTML Validator w3](https://validator.w3.org/)
   - index.html
-![index.html test](assets/images/test/index-test.jpg)
-  - about.html
-![about.html test](assets/images/test/about-test.jpg)  
+![index.html test](assets/images/test/index-validation-w3.jpg)
   - gallery.html
-![gallery.html test](assets/images/test/gallery-test.jpg)
+![gallery.html test](assets/images/test/gallery-validation-w3.jpg)
+  - about.html
+![about.html test](assets/images/test/about-validation-w3.jpg)  
   - 404.html
-![about.html test](assets/images/test/about-test.jpg)
+![404.html test](assets/images/test/404-validation-w3.jpg)
 
 ### CSS testing with Jigsaww3
 
 - Test style.css with [css Validator w3](https://validator.w3.org/) & [Jigsaw w3](https://jigsaw.w3.org/css-validator/)
   - W3 Validator
-![style.css test](assets/images/test/css-test.jpg)
+![style.css test](assets/images/test/css-validation-w3.jpg)
   - Jigsaw w3
-![style.css test](assets/images/test/css-test-2.jpg) 
+![style.css test](assets/images/test/css-validation-jigsaw-w3.jpg)
 
 
 ### User Stories testing against the deployed site
