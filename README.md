@@ -486,14 +486,14 @@ There is a simple yet clear page when there is a broken link o page not found
 
 ### Test Deployed site next to Deployment version and check possible differences between them
 
-The Pictures on the left side are the Deployed site, and the pictures on the right are the Deployment
+The pictures on the left are the development, and the right the deployed version. There are no differences between the deployed version and the development version, both versions are the same and have the same content, design and functionality.
 
 - Index.html
-![index.html deployment test](assets/images/test/dep-index.jpg)
-- About me
-![about.html deployment test](assets/images/test/dep-about.jpg)
+![index.html deployment test](assets/images/test/deploy-vs-dev-test-index.jpg)
 - Gallery
-![gallery.html deployment test](assets/images/test/dep-gallery.jpg)
+![gallery.html deployment test](assets/images/test/deploy-vs-dev-test-gallery.jpg)
+- About me
+![about.html deployment test](assets/images/test/deploy-vs-dev-test-about.jpg)
 - 404
 ![404.html deployment test](assets/images/test/dep-404.jpg)
 
